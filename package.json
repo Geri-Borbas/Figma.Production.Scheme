@@ -1,0 +1,14 @@
+{
+  "name": "Scheme",
+  "version": "1.0.0",
+  "description": "Figma plugin to apply colors to local styles.",
+  "main": "code.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "author": "Geri Borbás",
+  "license": "MIT",
+  "devDependencies": {
+    "@figma/plugin-typings": "^1.37.0"
+  }
+}
