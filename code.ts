@@ -34,6 +34,8 @@ function run() {
 			// Parse style from swatch.
 			let styleName = text.characters
 			let stylePaints = ellipse.fills as [Paint]
+
+			// Log.
 			console.log("styleName: " + styleName)
 			console.log(stylePaints)
 
