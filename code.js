@@ -36,8 +36,6 @@ function run() {
             return;
         }
         // Apply.
-        style.name = styleName;
-        style.description = "Auto-created from scheme.";
         style.paints = stylePaints;
     });
 }
